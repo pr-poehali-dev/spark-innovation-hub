@@ -3,58 +3,58 @@ import { TestimonialsColumn } from "@/components/ui/testimonials-column"
 
 const testimonials = [
   {
-    text: "Velocite сократил наш пайплайн деплоя с 4 часов до 12 минут. Автоматизация кардинально изменила наш CI/CD процесс.",
+    text: "Приехал с проблемой — VIN почти не читался из-за ржавчины. Через 30 минут всё было чисто. ГИБДД приняли авто без вопросов!",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=face",
     name: "Анна Смирнова",
-    role: "CTO в TechFlow Solutions",
+    role: "Владелец Toyota Camry",
   },
   {
-    text: "Мы изучили 15 платформ, прежде чем выбрать Velocite. ROI стал очевиден уже в первый месяц использования.",
+    text: "Долго искал где почистить VIN перед постановкой на учёт. Ребята сделали быстро и аккуратно — никаких царапин на кузове.",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
     name: "Максим Волков",
-    role: "VP Engineering в Quantum Dynamics",
+    role: "Владелец BMW 5 Series",
   },
   {
-    text: "Наша команда выпустила в 3 раза больше фич за квартал. Инструменты совместной работы сделали удаленку бесшовной.",
+    text: "Купила авто из другого региона, VIN был в ужасном состоянии. Лазерная очистка решила проблему за один визит.",
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
-    name: "Елена Родригес",
-    role: "Head of Product в Alpine Ventures",
+    name: "Елена Кузнецова",
+    role: "Владелец Hyundai Solaris",
   },
   {
-    text: "Онбординг прошел невероятно гладко. Вся команда разработки стала продуктивной уже на первой неделе.",
+    text: "Сначала сомневался, но результат превзошёл ожидания. VIN выглядит как новый, ГИБДД приняли без нареканий.",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
-    name: "Дмитрий Парк",
-    role: "IT-директор в Stellar Analytics",
+    name: "Дмитрий Орлов",
+    role: "Владелец Kia Sportage",
   },
   {
-    text: "Поддержка клиентов на высоте. Помогли мигрировать всю инфраструктуру с нулевым даунтаймом.",
+    text: "Записался онлайн, приехал в назначенное время. Всё чётко по регламенту — без очередей и лишних вопросов.",
     image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&crop=face",
-    name: "Анна Ковальски",
-    role: "Операционный директор в Nova Industries",
+    name: "Ольга Петрова",
+    role: "Владелец Lada Vesta",
   },
   {
-    text: "API-интеграции сэкономили сотни часов разработки. Все работает из коробки.",
+    text: "Мастер объяснил весь процесс, показал результат до и после. Работа выполнена на совесть, рекомендую всем!",
     image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
-    name: "Алексей Вилсон",
-    role: "CEO в Meridian Tech",
+    name: "Алексей Фёдоров",
+    role: "Владелец Mercedes C-Class",
   },
   {
-    text: "Velocite изменил наш подход к релизам. Откаты, занимавшие часы, теперь происходят за секунды.",
+    text: "Авто с пробегом, VIN сильно окислился. Лазером сделали всё аккуратно — краска рядом не пострадала.",
     image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&h=150&fit=crop&crop=face",
-    name: "Лиза Томпсон",
-    role: "DevOps Lead в Cascade Systems",
+    name: "Наталья Иванова",
+    role: "Владелец Ford Focus",
   },
   {
-    text: "Аналитический дашборд дает инсайты, которых у нас раньше не было. Data-driven решения стали нормой.",
+    text: "Приехал по рекомендации коллеги. Цена адекватная, скорость отличная. Теперь тоже советую всем знакомым.",
     image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&h=150&fit=crop&crop=face",
-    name: "Михаил Чен",
-    role: "Product Manager в Vertex Labs",
+    name: "Михаил Сергеев",
+    role: "Владелец Audi A4",
   },
   {
-    text: "Частота деплоев выросла в 5 раз без дополнительных затрат на инфраструктуру. Впечатляющая платформа.",
+    text: "Переживал, что повредят кузов, но всё прошло идеально. Настоящие профессионалы своего дела!",
     image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face",
-    name: "Рахиль Ким",
-    role: "Engineering Manager в Prism Digital",
+    name: "Светлана Новикова",
+    role: "Владелец Volkswagen Polo",
   },
 ]
 
@@ -62,7 +62,7 @@ const firstColumn = testimonials.slice(0, 3)
 const secondColumn = testimonials.slice(3, 6)
 const thirdColumn = testimonials.slice(6, 9)
 
-const logos = ["TechFlow", "Quantum Dynamics", "Alpine Ventures", "Stellar Analytics", "Nova Industries", "Meridian Tech"]
+const logos = ["Toyota", "BMW", "Mercedes", "Kia", "Hyundai", "Lada", "Audi", "Volkswagen", "Ford", "Nissan"]
 
 export function TestimonialsSection() {
   return (
@@ -78,10 +78,10 @@ export function TestimonialsSection() {
           <div className="border border-zinc-800 py-1.5 px-4 rounded-full text-sm text-zinc-400">Отзывы</div>
 
           <h2 className="font-display text-4xl md:text-5xl font-bold text-zinc-100 mt-6 text-center tracking-tight">
-            Что говорят пользователи
+            Что говорят клиенты
           </h2>
           <p className="text-center mt-4 text-zinc-500 text-lg text-balance">
-            Узнайте мнение наших клиентов о платформе.
+            Более 500 автовладельцев уже поставили машину на учёт после нашей очистки.
           </p>
         </motion.div>
 
@@ -92,7 +92,7 @@ export function TestimonialsSection() {
         </div>
 
         <div className="mt-16 pt-16 border-t border-zinc-800/50">
-          <p className="text-center text-sm text-zinc-500 mb-8">Нам доверяют лидеры индустрии</p>
+          <p className="text-center text-sm text-zinc-500 mb-8">Работаем с любыми марками автомобилей</p>
           <div className="relative overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_20%,black_80%,transparent)]">
             <motion.div
               className="flex gap-12 md:gap-16"
